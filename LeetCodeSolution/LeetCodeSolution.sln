@@ -119,6 +119,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft", "Microsoft", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Solution\Categorization\ApproachWise\Array\Array\Array.csproj", "{402A1296-7C59-48CB-81D0-39651FA0EB02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionTests", "SolutionTests\SolutionTests.csproj", "{0CF4DFF1-24BE-4635-8386-89AEF5A6F47D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{402A1296-7C59-48CB-81D0-39651FA0EB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402A1296-7C59-48CB-81D0-39651FA0EB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402A1296-7C59-48CB-81D0-39651FA0EB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF4DFF1-24BE-4635-8386-89AEF5A6F47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF4DFF1-24BE-4635-8386-89AEF5A6F47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF4DFF1-24BE-4635-8386-89AEF5A6F47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF4DFF1-24BE-4635-8386-89AEF5A6F47D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
