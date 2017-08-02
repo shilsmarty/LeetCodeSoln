@@ -1,0 +1,151 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F9138F86-6E6B-4C52-8778-4E4CB00F9A70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem", "Problem", "{939907A5-7745-4D14-8C1E-1FD8E0378505}"
+	ProjectSection(SolutionItems) = preProject
+		Problem\001-TwoSum.md = Problem\001-TwoSum.md
+		Problem\002-AddTwoNumbers.md = Problem\002-AddTwoNumbers.md
+		Problem\003-LongestSubstringWithoutRepeatingCharacters.md = Problem\003-LongestSubstringWithoutRepeatingCharacters.md
+		Problem\004-MedianOfTwoSortedArrays.md = Problem\004-MedianOfTwoSortedArrays.md
+		Problem\005-LongestPalindromicSubstring.md = Problem\005-LongestPalindromicSubstring.md
+		Problem\006-ZigZagConversion.md = Problem\006-ZigZagConversion.md
+		Problem\007-ReverseInteger.md = Problem\007-ReverseInteger.md
+		Problem\008-StringToInteger(atoi).md = Problem\008-StringToInteger(atoi).md
+		Problem\009-PalindromeNumber.md = Problem\009-PalindromeNumber.md
+		Problem\010-RegularExpressionMatching.md = Problem\010-RegularExpressionMatching.md
+		Problem\011-ContainerWithMostWater.md = Problem\011-ContainerWithMostWater.md
+		Problem\012-IntegerToRoman.md = Problem\012-IntegerToRoman.md
+		Problem\013-RomanToInteger.md = Problem\013-RomanToInteger.md
+		Problem\014-LongestCommonPrefix.md = Problem\014-LongestCommonPrefix.md
+		Problem\015-3Sum.md = Problem\015-3Sum.md
+		Problem\016-3SumClosest.md = Problem\016-3SumClosest.md
+		Problem\017-LetterCombinationsOfAPhoneNumber.md = Problem\017-LetterCombinationsOfAPhoneNumber.md
+		Problem\018-4Sum.md = Problem\018-4Sum.md
+		Problem\019-RemoveNthNodeFromEndOfList.md = Problem\019-RemoveNthNodeFromEndOfList.md
+		Problem\020-ValidParentheses.md = Problem\020-ValidParentheses.md
+		Problem\021-MergeTwoSortedLists.md = Problem\021-MergeTwoSortedLists.md
+		Problem\022-GenerateParentheses.md = Problem\022-GenerateParentheses.md
+		Problem\023-MergeKSortedLists.md = Problem\023-MergeKSortedLists.md
+		Problem\024-SwapNodesInPairs.md = Problem\024-SwapNodesInPairs.md
+		Problem\025-ReverseNodesInKGroup.md = Problem\025-ReverseNodesInKGroup.md
+		Problem\026-RemoveDuplicatesFromSortedArray.md = Problem\026-RemoveDuplicatesFromSortedArray.md
+		Problem\027-RemoveElement.md = Problem\027-RemoveElement.md
+		Problem\028-ImplementStrStr.md = Problem\028-ImplementStrStr.md
+		Problem\029-DivideTwoIntegers.md = Problem\029-DivideTwoIntegers.md
+		Problem\030-SubstringWithConcatenationOfAllWords.md = Problem\030-SubstringWithConcatenationOfAllWords.md
+		Problem\031-NextPermutation.md = Problem\031-NextPermutation.md
+		Problem\032-LongestValidParentheses.md = Problem\032-LongestValidParentheses.md
+		Problem\033-SearchInRotatedSortedArray.md = Problem\033-SearchInRotatedSortedArray.md
+		Problem\034-SearchForARange.md = Problem\034-SearchForARange.md
+		Problem\035-SearchInsertPosition.md = Problem\035-SearchInsertPosition.md
+		Problem\036-ValidSudoku.md = Problem\036-ValidSudoku.md
+		Problem\037-SudokuSolver.md = Problem\037-SudokuSolver.md
+		Problem\038-CountAndSay.md = Problem\038-CountAndSay.md
+		Problem\039-CombinationSum.md = Problem\039-CombinationSum.md
+		Problem\040-CombinationSum2.md = Problem\040-CombinationSum2.md
+		Problem\041-FirstMissingPositive.md = Problem\041-FirstMissingPositive.md
+		Problem\042-TrappingRainWater.md = Problem\042-TrappingRainWater.md
+		Problem\043-MultiplyStrings.md = Problem\043-MultiplyStrings.md
+		Problem\044-WildcardMatching.md = Problem\044-WildcardMatching.md
+		Problem\045-JumpGame2.md = Problem\045-JumpGame2.md
+		Problem\046-Permutations.md = Problem\046-Permutations.md
+		Problem\047-Permutations2.md = Problem\047-Permutations2.md
+		Problem\048-RotateImage.md = Problem\048-RotateImage.md
+		Problem\049-GroupAnagrams.md = Problem\049-GroupAnagrams.md
+		Problem\050-Pow.md = Problem\050-Pow.md
+		Problem\051-NQueens.md = Problem\051-NQueens.md
+		Problem\052-NQueens2.md = Problem\052-NQueens2.md
+		Problem\053-MaximumSubarray.md = Problem\053-MaximumSubarray.md
+		Problem\054-SpiralMatrix.md = Problem\054-SpiralMatrix.md
+		Problem\055-JumpGame.md = Problem\055-JumpGame.md
+		Problem\056-MergeIntervals.md = Problem\056-MergeIntervals.md
+		Problem\057-InsertInterval.md = Problem\057-InsertInterval.md
+		Problem\058-LengthOfLastWord.md = Problem\058-LengthOfLastWord.md
+		Problem\059-SpiralMatrix2.md = Problem\059-SpiralMatrix2.md
+		Problem\060-PermutationSequence.md = Problem\060-PermutationSequence.md
+		Problem\061-RotateList.md = Problem\061-RotateList.md
+		Problem\062-UniquePaths.md = Problem\062-UniquePaths.md
+		Problem\063-UniquePaths2.md = Problem\063-UniquePaths2.md
+		Problem\064-MinimumPathSum.md = Problem\064-MinimumPathSum.md
+		Problem\065-ValidNumber.md = Problem\065-ValidNumber.md
+		Problem\066-PlusOne.md = Problem\066-PlusOne.md
+		Problem\067-AddBinary.md = Problem\067-AddBinary.md
+		Problem\068-TextJustification.md = Problem\068-TextJustification.md
+		Problem\069-Sqrt(x).md = Problem\069-Sqrt(x).md
+		Problem\070-ClimbingStairs.md = Problem\070-ClimbingStairs.md
+		Problem\071-SimplifyPath.md = Problem\071-SimplifyPath.md
+		Problem\072-EditDistance.md = Problem\072-EditDistance.md
+		Problem\073-SetMatrixZeroes.md = Problem\073-SetMatrixZeroes.md
+		Problem\074-SearchA2DMatrix.md = Problem\074-SearchA2DMatrix.md
+		Problem\075-SortColors.md = Problem\075-SortColors.md
+		Problem\076-MinimumWindowSubstring.md = Problem\076-MinimumWindowSubstring.md
+		Problem\077-Combinations.md = Problem\077-Combinations.md
+		Problem\078-Subsets.md = Problem\078-Subsets.md
+		Problem\079-WordSearch.md = Problem\079-WordSearch.md
+		Problem\080-RemoveDuplicatesFromSortedArray2.md = Problem\080-RemoveDuplicatesFromSortedArray2.md
+		Problem\081-SearchInRotatedSortedArray2.md = Problem\081-SearchInRotatedSortedArray2.md
+		Problem\082-RemoveDuplicatesFromSortedList2.md = Problem\082-RemoveDuplicatesFromSortedList2.md
+		Problem\083-RemoveDuplicatesFromSortedList.md = Problem\083-RemoveDuplicatesFromSortedList.md
+		Problem\084-LargestRectangleInHistogram.md = Problem\084-LargestRectangleInHistogram.md
+		Problem\085-MaximalRectangle.md = Problem\085-MaximalRectangle.md
+		Problem\086-PartitionList.md = Problem\086-PartitionList.md
+		Problem\087-ScrambleString.md = Problem\087-ScrambleString.md
+		Problem\088-MergeSortedArray.md = Problem\088-MergeSortedArray.md
+		Problem\089-GrayCode.md = Problem\089-GrayCode.md
+		Problem\090-Subsets2.md = Problem\090-Subsets2.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{145A0656-C4A9-4B7B-BAC1-36861C6771A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Categorization", "Categorization", "{A2331FD0-3AE9-49AB-B9A4-069F29619FC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanyWise", "CompanyWise", "{23D3472E-A35C-4D3B-A33C-4F2015FD7B03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApproachWise", "ApproachWise", "{F6D7DBE1-69E3-40D3-B2DD-7DF81C5460DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{44DE317B-8999-4F1C-A71C-5B196F6A5C2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "String", "String", "{ECC30063-7E1F-4297-A895-62A2DE914463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearch", "BinarySearch", "{A5862788-D1C0-4018-9830-009FD4C9C9DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{FDB45632-8475-4129-971B-ACFE08B1DBD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft", "Microsoft", "{27E27EF8-49A1-4885-8298-A9880A89FC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Solution\Categorization\ApproachWise\Array\Array\Array.csproj", "{402A1296-7C59-48CB-81D0-39651FA0EB02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9138F86-6E6B-4C52-8778-4E4CB00F9A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9138F86-6E6B-4C52-8778-4E4CB00F9A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9138F86-6E6B-4C52-8778-4E4CB00F9A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9138F86-6E6B-4C52-8778-4E4CB00F9A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402A1296-7C59-48CB-81D0-39651FA0EB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402A1296-7C59-48CB-81D0-39651FA0EB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402A1296-7C59-48CB-81D0-39651FA0EB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402A1296-7C59-48CB-81D0-39651FA0EB02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2331FD0-3AE9-49AB-B9A4-069F29619FC9} = {145A0656-C4A9-4B7B-BAC1-36861C6771A6}
+		{23D3472E-A35C-4D3B-A33C-4F2015FD7B03} = {A2331FD0-3AE9-49AB-B9A4-069F29619FC9}
+		{F6D7DBE1-69E3-40D3-B2DD-7DF81C5460DF} = {A2331FD0-3AE9-49AB-B9A4-069F29619FC9}
+		{44DE317B-8999-4F1C-A71C-5B196F6A5C2E} = {F6D7DBE1-69E3-40D3-B2DD-7DF81C5460DF}
+		{ECC30063-7E1F-4297-A895-62A2DE914463} = {F6D7DBE1-69E3-40D3-B2DD-7DF81C5460DF}
+		{A5862788-D1C0-4018-9830-009FD4C9C9DF} = {F6D7DBE1-69E3-40D3-B2DD-7DF81C5460DF}
+		{FDB45632-8475-4129-971B-ACFE08B1DBD8} = {F6D7DBE1-69E3-40D3-B2DD-7DF81C5460DF}
+		{27E27EF8-49A1-4885-8298-A9880A89FC14} = {23D3472E-A35C-4D3B-A33C-4F2015FD7B03}
+		{402A1296-7C59-48CB-81D0-39651FA0EB02} = {44DE317B-8999-4F1C-A71C-5B196F6A5C2E}
+	EndGlobalSection
+EndGlobal
