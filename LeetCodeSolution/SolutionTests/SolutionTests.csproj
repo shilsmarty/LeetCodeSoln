@@ -53,6 +53,16 @@
     <Compile Include="ArrayTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f9138f86-6e6b-4c52-8778-4e4cb00f9a70}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Solution\Categorization\ApproachWise\Array\Array\Array.csproj">
+      <Project>{402a1296-7c59-48cb-81d0-39651fa0eb02}</Project>
+      <Name>Array</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

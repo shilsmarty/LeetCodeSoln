@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common.Sorting;
 
 namespace LeetCodeSolution.Array
 {
@@ -17,5 +18,12 @@ namespace LeetCodeSolution.Array
     ///// </summary>
     public class RemoveDuplicatesFromSortedArray
     {
+        public int[] SortedArray(int[] input)
+        {
+            // Since this is Non sorted array , so we will sort this collection first.
+            var sortedList = new QuickSortAlgo().QuickSort(input.ToList());
+
+            return sortedList.ToArray();
+        }
     }
 }
