@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Common.Sorting;
 
 namespace LeetCodeSolution.Array
@@ -18,12 +15,40 @@ namespace LeetCodeSolution.Array
     ///// </summary>
     public class RemoveDuplicatesFromSortedArray
     {
-        public int[] SortedArray(int[] input)
+
+        public int[] RemoveDuplicates(int[] input)
+        {
+            var sortedArray = SortedArray(input);
+            var approach1 = approach1_hashset(sortedArray);
+            var approach2 = approach2_usingLoop(sortedArray);
+
+            return approach2;
+        }
+
+        private int[] SortedArray(int[] input)
         {
             // Since this is Non sorted array , so we will sort this collection first.
-            var sortedList = new QuickSortAlgo().QuickSort(input.ToList());
+            var sortedList = input.ToList().MergeSort();
 
             return sortedList.ToArray();
+        }
+
+        private int[] approach1_hashset(int[] sortedArray)
+        {
+            return new HashSet<int>(sortedArray).ToArray();
+        }
+
+        private int[] approach2_usingLoop(int[] sortedArray)
+        {
+            var resultArray = new List<int>();
+            foreach (var value in sortedArray)
+            {
+                if (!resultArray.Contains(value))
+                {
+                    resultArray.Add(value);
+                }
+            }
+            return resultArray.ToArray();
         }
     }
 }
